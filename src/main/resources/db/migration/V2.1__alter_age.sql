@@ -1,0 +1,1 @@
+ALTER TABLE user ADD COLUMN user_age int(11) DEFAULT NULL COMMENT '年龄';

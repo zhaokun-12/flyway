@@ -1,0 +1,1 @@
+ALTER TABLE user ADD COLUMN master int(11) DEFAULT NULL COMMENT '班主任';

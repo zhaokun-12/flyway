@@ -1,0 +1,15 @@
+spring:
+  flyway:
+    enabled: true
+    clean-disabled: true
+    # 指定baseline版本号，低于该版本的SQL脚本在migrate是不会执行
+    baseline-version: 2.4
+
+app:
+  v1:
+    foo:
+      name: felord.cn
+      description: 码农小胖哥
+    bar:
+      name: ooxx.cn
+      description: xxxxxx
